@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Cython
+*.c
+*.cpp
+*.so
+*.pyd
+*.html
+
+# Environnement virtuel
+env/
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyPI
+*.whl
+*.tar.gz
+
+# Tests
+.pytest_cache/
+htmlcov/
+.coverage

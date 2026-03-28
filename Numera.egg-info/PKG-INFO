@@ -1,0 +1,46 @@
+Metadata-Version: 2.4
+Name: Numera
+Version: 0.1.0
+Summary: A fast scientific math library powered by Cython
+Home-page: https://github.com/tonpseudo/Numera
+Author: Ton Nom
+Author-email: tonemail@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.21
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Numera
+
+A fast scientific math library for Python, powered by Cython.
+
+## Installation
+pip install Numera
+
+## Modules
+- `Numera.Core.Matrices` — Linear algebra
+- `Numera.Stats` — Descriptive statistics
+- `Numera.Calculus` — Derivatives, integrals, ODE
+- `Numera.Math` — Log, exp, factorial, combinations
+
+## Quick start
+from Numera.Core.Matrices import Matrix
+from Numera.Stats import Stats
+from Numera.Calculus import Calculus
+from Numera.Math import Math
+
+A = Matrix([[1, 2], [3, 4]])
+print(A.det())   # -2.0

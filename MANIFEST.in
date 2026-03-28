@@ -1,0 +1,4 @@
+include Numera/Core/Matrices/_matrix_core.pyx
+include Numera/Stats/_stats_core.pyx
+include Numera/Calculus/_calculus_core.pyx
+include Numera/Math/_math_core.pyx
